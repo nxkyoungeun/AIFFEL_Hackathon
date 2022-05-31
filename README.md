@@ -31,7 +31,15 @@ AIFFEL 에서 진행한 자유주제 해커톤입니다.
 3. 컬럼 소개
 - 사이트, 사용자이름(ID), 색상, 소재, 종류, 별점, 성별(구매자), 가격, 무늬, 업사이클링브랜드(기다 아니다, 이름), 웹사이트주소
 4. 데이터 분석
-- 사진만
+- 색상
+![image](https://user-images.githubusercontent.com/97087253/171132821-133896c3-ab84-42e5-8697-96c619a9b3a0.png)
+- 소재
+![image](https://user-images.githubusercontent.com/97087253/171132888-f1eb53ed-d597-4014-b514-352c63d9255a.png)
+- 성별
+![image](https://user-images.githubusercontent.com/97087253/171132950-700ddb6c-644d-4aec-8f6b-566d181eec05.png)
+- 가격
+![image](https://user-images.githubusercontent.com/97087253/171133069-be2f6361-941b-4ee0-b0d4-89129903583a.png)
+
 5. 추천시스템 종류(시도한 것들)
 ### 추천시스템
 1. 데이터 전처리
