@@ -38,7 +38,7 @@ AIFFEL 에서 진행한 자유주제 해커톤입니다.
 - 성별
 ![image](https://user-images.githubusercontent.com/97087253/171132950-700ddb6c-644d-4aec-8f6b-566d181eec05.png)
 - 가격
-![image](https://user-images.githubusercontent.com/97087253/171133069-be2f6361-941b-4ee0-b0d4-89129903583a.png)
+![image](https://user-images.githubusercontent.com/97087253/171133600-cbdd623b-e334-41e5-8845-987b88d863ad.png)
 
 5. 추천시스템 종류(시도한 것들)
 ### 추천시스템
