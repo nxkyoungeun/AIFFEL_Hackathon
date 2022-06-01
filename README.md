@@ -34,11 +34,13 @@ AIFFEL 에서 진행한 자유주제 해커톤입니다.
 - 색상
 ![image](https://user-images.githubusercontent.com/97087253/171132821-133896c3-ab84-42e5-8697-96c619a9b3a0.png)
 - 소재
-![image](https://user-images.githubusercontent.com/97087253/171132888-f1eb53ed-d597-4014-b514-352c63d9255a.png)
+![image](https://user-images.githubusercontent.com/97087253/171340475-86b206ee-cac5-486f-8dab-9cdef2df6e51.png)
 - 성별
 ![image](https://user-images.githubusercontent.com/97087253/171132950-700ddb6c-644d-4aec-8f6b-566d181eec05.png)
 - 가격
-![image](https://user-images.githubusercontent.com/97087253/171133600-cbdd623b-e334-41e5-8845-987b88d863ad.png)
+![image](https://user-images.githubusercontent.com/97087253/171340681-f4457cf1-bf26-4365-83ed-e6f0064db59c.png)
+- 무늬 여부
+![image](https://user-images.githubusercontent.com/97087253/171340718-5a583d4e-8c0c-4ec9-a572-c02a0294d9ad.png)
 
 5. 추천시스템 종류(시도한 것들)
 ### 추천시스템
