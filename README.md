@@ -38,16 +38,22 @@ AIFFEL 에서 진행한 자유주제 해커톤입니다.
 - 사이트, 사용자이름(ID), 색상, 소재, 종류, 별점, 성별(구매자), 가격, 무늬, 업사이클링브랜드(0과 1, 이름), 웹사이트주소
 4. 데이터 분석
 - 색상
-![image](https://user-images.githubusercontent.com/97087253/171132821-133896c3-ab84-42e5-8697-96c619a9b3a0.png)
+![image](https://user-images.githubusercontent.com/97087253/171815371-4b85ff88-996b-4354-8f6c-abed4d19540d.png)
 - 소재
-![image](https://user-images.githubusercontent.com/97087253/171771333-a60f6b83-b70e-47d2-967f-98353033800c.png)
+![image](https://user-images.githubusercontent.com/97087253/171815404-32ce7aee-b842-4c2d-819b-578c1b5e9c56.png)
 - 성별
-![image](https://user-images.githubusercontent.com/97087253/171132950-700ddb6c-644d-4aec-8f6b-566d181eec05.png)
+![image](https://user-images.githubusercontent.com/97087253/171815427-961732d9-aec1-4431-af69-4cf90067fd78.png)
 - 가격
-![image](https://user-images.githubusercontent.com/97087253/171770247-64e67dc4-6bbd-4297-bfa2-d9cf60db2b4f.png)
+![image](https://user-images.githubusercontent.com/97087253/171815447-a9d8c381-700c-4c8e-a72c-3b9df8a99ee5.png)
 - 무늬 여부
 
-![image](https://user-images.githubusercontent.com/97087253/171770150-681a73ed-2d72-4b90-b8e2-76e594a22305.png)
+![image](https://user-images.githubusercontent.com/97087253/171815466-aaa8e22d-8563-4b08-baa4-9acc491b1d6c.png)
+- 브랜드
+
+![image](https://user-images.githubusercontent.com/97087253/171815489-95d01375-c222-4620-8da8-6618752a34fa.png)
+- 종류
+
+![image](https://user-images.githubusercontent.com/97087253/171815509-02793f8a-b286-442d-ad56-28ddc3365956.png)
 
 
 5. 추천시스템 종류(시도한 것들)
