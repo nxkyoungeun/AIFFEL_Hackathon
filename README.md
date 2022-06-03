@@ -40,14 +40,15 @@ AIFFEL 에서 진행한 자유주제 해커톤입니다.
 - 색상
 ![image](https://user-images.githubusercontent.com/97087253/171132821-133896c3-ab84-42e5-8697-96c619a9b3a0.png)
 - 소재
-![image](https://user-images.githubusercontent.com/97087253/171340475-86b206ee-cac5-486f-8dab-9cdef2df6e51.png)
+![image](https://user-images.githubusercontent.com/97087253/171771333-a60f6b83-b70e-47d2-967f-98353033800c.png)
 - 성별
 ![image](https://user-images.githubusercontent.com/97087253/171132950-700ddb6c-644d-4aec-8f6b-566d181eec05.png)
 - 가격
-![image](https://user-images.githubusercontent.com/97087253/171340681-f4457cf1-bf26-4365-83ed-e6f0064db59c.png)
+![image](https://user-images.githubusercontent.com/97087253/171770247-64e67dc4-6bbd-4297-bfa2-d9cf60db2b4f.png)
 - 무늬 여부
 
-![image](https://user-images.githubusercontent.com/97087253/171340718-5a583d4e-8c0c-4ec9-a572-c02a0294d9ad.png)
+![image](https://user-images.githubusercontent.com/97087253/171770150-681a73ed-2d72-4b90-b8e2-76e594a22305.png)
+
 
 5. 추천시스템 종류(시도한 것들)
 - 뉴럴 네트워크 임베딩
@@ -58,9 +59,9 @@ AIFFEL 에서 진행한 자유주제 해커톤입니다.
 ### 추천시스템
 1. 데이터 전처리
 - **데이터 전처리 방법 설명**
-- 색상
-- 소재
-- 가격
+  - 색상
+  - 소재
+  - 가격
 2. 모델
 - **사용한 모델 코드 설명**
 
