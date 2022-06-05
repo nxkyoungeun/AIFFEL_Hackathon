@@ -1,6 +1,8 @@
 # 💻AIFFEL 해커톤
 AIFFEL 에서 진행한 자유주제 해커톤입니다.
 
+![header](https://capsule-render.vercel.app/api?type=waving&color=9ACB34&height=300&section=header&text=업사이클링%20브랜드%20추천&fontSize=90&)
+
 # 🪴업사이클링 브랜드 및 제품 추천🪴
 ## 목차
 [1. 팀원 구성 및 역할](#팀원-구성-및-역할)<br>
@@ -83,3 +85,4 @@ d. 결과에 대한 만족도를 물어본다. -> 만족함 or 불만족을 선�
 [reference-참고 웹페이지](https://western-sky.tistory.com/60?category=847883#%E2%9C%A8%EA%B5%AC%ED%98%84-%EA%B2%B0%EA%B3%BC)
 
 
+![header](https://capsule-render.vercel.app/api?type=waving&color=9ACB34&height=300&section=footer&fontSize=90&)
