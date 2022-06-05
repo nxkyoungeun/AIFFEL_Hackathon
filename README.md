@@ -51,7 +51,7 @@
 ![image](https://user-images.githubusercontent.com/97087253/171815489-95d01375-c222-4620-8da8-6618752a34fa.png)
 - 종류
 
-![image](https://user-images.githubusercontent.com/97087253/171815509-02793f8a-b286-442d-ad56-28ddc3365956.png)
+![image](https://user-images.githubusercontent.com/97087253/172059192-b1d51f21-1518-440d-8870-5b5b8d30a2d1.png)
 
 
 5. 추천시스템 종류(시도한 것들)
