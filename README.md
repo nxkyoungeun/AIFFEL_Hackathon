@@ -1,9 +1,4 @@
-# 💻AIFFEL 해커톤
-AIFFEL 에서 진행한 자유주제 해커톤입니다.
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=9ACB34&height=300&section=header&text=업사이클링%20브랜드%20추천&fontSize=90&)
-
-# 🪴업사이클링 브랜드 및 제품 추천🪴
+![header](https://capsule-render.vercel.app/api?type=waving&color=9ACB34&height=300&section=header&text=🪴업사이클링%20브랜드%20추천🪴&fontSize=70&)
 ## 목차
 [1. 팀원 구성 및 역할](#팀원-구성-및-역할)<br>
 [2. 프로젝트 배경](#프로젝트-배경)<br>
@@ -67,7 +62,7 @@ AIFFEL 에서 진행한 자유주제 해커톤입니다.
 
 ### 추천시스템
 1. 데이터 전처리
-- **데이터 전처리 방법 설명**
+- **데이터 전처리 방법**
   - 색상
   - 소재
   - 가격
@@ -86,3 +81,5 @@ d. 결과에 대한 만족도를 물어본다. -> 만족함 or 불만족을 선�
 
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=9ACB34&height=300&section=footer&fontSize=90&)
+
+
