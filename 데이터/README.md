@@ -1,1 +1,226 @@
+# 데이터 전처리
+# -> 캡쳐본으로 할지 아니면 코드를 
+# 색상
+-> 데이터 전체 색상 개수 39개를 👉🏻 11개로 줄였다
+<img width="706" alt="스크린샷 2022-06-08 오전 12 15 25" src="https://user-images.githubusercontent.com/97087253/172417216-f91cbd18-2b72-412f-b653-35a6d141a859.png">
 
+<img width="884" alt="스크린샷 2022-06-07 오후 11 44 22" src="https://user-images.githubusercontent.com/97087253/172409678-085bbc2d-df03-47a9-a2ca-bbdc884ccaab.png">
+----
+
+```
+# color unique 데이터 개수, nan 확인
+print('#color unique 데이터 개수 :', raw['color'].nunique())
+print('#color nan 개수 :', raw['color'].isnull().sum())
+print()
+print(raw['color'].value_counts())
+```
+
+결과
+
+```
+#color unique 데이터 개수 : 39
+#color nan 개수 : 0
+
+블랙            231
+그레이            65
+블루             63
+화이트            51
+네이비            44
+그린             41
+카키             35
+멀티             31
+베이지            30
+차콜             16
+아이보리           15
+브라운            12
+오렌지            11
+크림             10
+레드             10
+핑크              8
+퍼플              7
+기타              4
+옐로우             4
+블랙화이트           3
+네온              3
+오트밀             3
+모카              2
+민트              1
+멀티(샌드 카키)       1
+올리브             1
+그레이(오트밀)        1
+민트 그레이          1
+실버              1
+코랄              1
+검정              1
+레드(멀티)          1
+브라운             1
+엘로우             1
+멀티(오트밀멜란지)      1
+인디고             1
+멜란지             1
+오크밀             1
+파랑              1
+Name: color, dtype: int64
+'멀티(오트밀멜란지)','레드(멀티)','멀티(샌드 카키)','블랙화이트' : 멀티
+'민트 그레이' , '엘로우', '실버', '멜란지' , '오크밀', '코랄', '모카', '옐로우','오트밀', '네온', '퍼플', '핑크', '레드', '오렌지', '브라운' : 기타
+'인디고', '파랑' : 블루
+'검정' : 블랙
+'민트' : 그린
+'그레이(오트밀)', '차콜' : 그레이
+'크림' : 아이보리
+```
+```
+# color 데이터 정리
+raw.replace({'color':['멀티(오트밀멜란지)','레드(멀티)','멀티(샌드 카키)','블랙화이트']}, '멀티', inplace=True)
+raw.replace({'color':['민트 그레이' , '엘로우', '실버', '멜란지' , '오크밀', '코랄', '모카', '옐로우','오트밀', '네온', '퍼플', '핑크', '레드', '오렌지']}, '기타', inplace=True)
+raw.replace({'color':['인디고', '파랑']}, '블루', inplace=True)
+raw.replace({'color':'검정'}, '블랙', inplace=True)
+raw.replace({'color':'민트'}, '그린', inplace=True )
+raw.replace({'color':'그레이(오트밀)'}, '그레이', inplace=True)
+raw.replace({'color':'크림'}, '아이보리', inplace=True)
+raw.replace({'color':['브라운 ', '브라운']}, '기타', inplace=True)
+raw.replace({'color':'차콜'}, '그레이', inplace=True)
+raw.replace({'color':'올리브'}, '카키', inplace=True )
+
+print('#수정 후 color unique 데이터 개수 :', raw['color'].nunique(), '\n')
+print(raw['color'].value_counts())
+```
+```
+#수정 후 color unique 데이터 개수 : 11 
+
+블랙      232
+그레이      82
+기타       71
+블루       65
+화이트      51
+네이비      44
+그린       42
+멀티       37
+카키       36
+베이지      30
+아이보리     25
+Name: color, dtype: int64
+```
+# 소재
+-> 데이터 전체 소재 개수 76개를 👉🏻 62개로 줄였다
+<img width="884" alt="스크린샷 2022-06-07 오후 11 46 07" src="https://user-images.githubusercontent.com/97087253/172410162-1b38fcc4-bd1a-474a-9205-304832189741.png">
+<img width="921" alt="스크린샷 2022-06-07 오후 11 47 22" src="https://user-images.githubusercontent.com/97087253/172410383-71c1d69e-d582-40ce-83b4-72b005ac0da2.png">
+<img width="1171" alt="스크린샷 2022-06-07 오후 11 49 21" src="https://user-images.githubusercontent.com/97087253/172410899-d1cf2a28-13e4-4262-bd5b-751ee84d81d8.png">
+----
+```
+# contents unique 데이터 개수, nan 확인
+print('#contents unique 데이터 개수 :', raw['contents'].nunique())
+print('#contents nan 개수 :', raw['contents'].isnull().sum())
+print()
+print(raw['contents'].unique())
+print(raw['contents'].value_counts())
+```
+
+결과
+
+```
+#contents unique 데이터 개수 : 76
+#contents nan 개수 : 27
+
+['면' '아라미드/캔버스' '면/폴리에스터' '울/폴리' '폴리에스터' '면/폴리' '아크릴' '아라미드' '폴리에스터/나일론'
+ '폴리에스터/레이온/폴리우레탄' '트윌' '폴리' '폴리에스터/폴리우레탄' '울/폴리/레이온/스판' '리사이클' nan
+ '아라미드/소방복' '면/레이온/폴리' '광고현수막' '나일론' '타이어이너튜브' '폴리에스터/레이온' '타이어튜브' '면/마'
+ '폴리에스터/레이온/나일론' '폴리에스터/레더' '울/나일론' '레더' '면/레이온' '면/폴라에스터' '폴리에스터/폴리'
+ '면/폴리에스터/나일론' '면/폴리우레탄' '면/나일론/폴리우레탄' '면/나일론' '면/린넨' '폴리에스터/아크릴/폴리우레탄'
+ '나일론/합성가죽' '나일론/폴리에스터' '면/폴리에스터/스판' '면/폴리에스터/폴리우레탄' '면/나일론/폴리에스터'
+ '폴리에스터/캐시미어/모' '폴리/스판' '면/스판' '울' '면/나일론/폴리' '타포린' '톤백' '울/아크릴/나일론'
+ '리사이클폴리에스터' '아크릴/울/나일론' '아크릴/면/나일론' '레이온' '리사이클폴리에스터/리사이클스판덱스'
+ '리사이클폴리에스터/폴리우레탄' '면/모달' '타이벡' '아크릴/폴리에스터/울/나일론/폴리우레탄'
+ '폴리에스터/레이온/울/폴리우레탄' '레이온/폴리에스터' '폴리에스터/스판' '천연가죽/폴리에스터' '울/복합소재'
+ '폴리에스터/레이온/스판' '면/아크릴' '캐시미어/나일론/울' '아크릴/폴리에스터/스판' '코듀라' '비건 레더'
+ '아크릴/나일론/울' '테리' '레이온/나일론' '면/종이' '울/나일론/아크릴/폴리에스트/스판' '비스코스/폴리/나일론'
+ '울/아크릴']
+면                    250
+폴리에스터                 54
+나일론                   51
+면/폴리에스터               45
+폴리에스터/레이온/폴리우레탄       29
+                    ... 
+울                      1
+울/복합소재                 1
+울/아크릴/나일론              1
+폴리에스터/레이온/울/폴리우레탄      1
+폴리에스터/아크릴/폴리우레탄        1
+Name: contents, Length: 76, dtype: int64
+```
+```
+# contents 데이터 수정
+raw.replace({'contents':'폴리'}, '폴리에스터', inplace=True)
+raw.replace({'contents':'폴리에스터/스판'}, '폴리에스터/폴리우레탄', inplace=True)
+raw.replace({'contents':'천연가죽/폴리에스터'}, '레더/폴리에스터', inplace=True)
+raw.replace({'contents':'폴리에스터/레이온/스판'}, '폴리에스터/레이온/폴리우레탄', inplace=True)
+raw.replace({'contents':'아크릴/폴리에스터/스판'}, '아크릴/폴리에스터/폴리우레탄', inplace=True)
+raw.replace({'contents':'면/폴리'}, '면/폴리에스터', inplace=True)
+raw.replace({'contents':'비건 레더'}, '레더', inplace=True)
+raw.replace({'contents':'울/폴리'}, '울/폴리에스터', inplace=True)
+raw.replace({'contents':'테리'}, '면', inplace=True)
+raw.replace({'contents':'면/스판'}, '면/폴리우레탄', inplace=True)
+raw.replace({'contents':'울/나일론/아크릴/폴리에스트/스판'}, '울/나일론/아크릴/폴리에스터/폴리우레탄', inplace=True)
+raw.replace({'contents':'비스코스/폴리/나일론'}, '레이온/폴리에스터/나일론', inplace=True)
+raw.replace({'contents':'나일론/합성가죽'}, '나일론/레더', inplace=True)
+raw.replace({'contents':'면/폴리에스터/스판'}, '면/폴리에스터/폴리우레탄', inplace=True)
+raw.replace({'contents':'폴리에스터/캐시미어/모'}, '폴리에스터/캐시미어/울', inplace=True)
+raw.replace({'contents':'폴리/스판'}, '폴리에스터/폴리우레탄', inplace=True)
+raw.replace({'contents':'면/나일론/폴리'}, '면/나일론/폴리에스터', inplace=True)
+raw.replace({'contents':'아라미드/캔버스'}, '면/아라미드', inplace=True)
+raw.replace({'contents':'트윌'}, '면', inplace=True)
+raw.replace({'contents':'울/폴리/레이온/스판'}, '울/폴리에스터/레이온/폴리우레탄', inplace=True)
+raw.replace({'contents':['리사이클', '아라미드/소방복']}, '아라미드', inplace=True)
+raw.replace({'contents':'면/레이온/폴리'}, '린넨/면/레이온/폴리에스터', inplace=True)
+raw.replace({'contents':'면/모달'}, '면/레이온', inplace=True)
+
+print('#수정 후 contents unique 데이터 개수 :', raw['contents'].nunique(), '\n')
+print(raw['contents'].value_counts())
+```
+
+결과
+
+```
+#수정 후 contents unique 데이터 개수 : 62 
+
+면                        252
+폴리에스터                     65
+면/폴리에스터                   58
+나일론                       51
+폴리에스터/폴리우레탄               44
+                        ... 
+울/아크릴/나일론                  1
+울/나일론/아크릴/폴리에스터/폴리우레탄      1
+폴리에스터/레이온/울/폴리우레탄          1
+면/나일론/폴리우레탄                1
+폴리에스터/아크릴/폴리우레탄            1
+Name: contents, Length: 62, dtype: int64
+```
+```
+# contents '/' 를 공백으로 대체
+raw['contents'] = raw['contents'].str.replace('/', ' ')
+raw
+```
+
+결과
+
+
+|	|user|color|contents|category|ratings|gender|price|style|up_check|brand|url|
+|----|----|----|----|----|----|----|----|----|----|----|----|
+|0|멤버_464f9cc84f7d|기타|면|상의|5|남자|39000|0|0|119레오|https://www.musinsa.com/app/goods/1876547/0|
+|1|멤버_464f9cc84f7d|카키|면|하의|5|남자|42000|0|0|119레오|https://www.musinsa.com/app/goods/2396824/0|
+|2|멤버_464f9cc84f7d|기타|면|모자|5|남자|59000|0|0|119레오|https://www.musinsa.com/app/goods/2428013/0|
+|3|멤버_464f9cc84f7d|블랙|면|상의|5|남자|35000|0|0|119레오|https://www.musinsa.com/app/goods/470357/0|
+|4|멤버_464f9cc84f7d|아이보리|면 아라미드|가방|5|남자|48000|1|1|119레오|https://www.musinsa.com/app/goods/1766332/0|
+|...|...|...|...|...|...|...|...|...|...|...|...|
+|710|허싱싱|기타|폴리에스터 폴리우레탄|가방|5|여자|59000|0|1|플리츠마마|https://www.musinsa.com/app/goods/2041227/0|
+|711|허싱싱|아이보리|울 아크릴|모자|5|여자|35000|0|0|플리츠마마|https://www.musinsa.com/app/goods/2196725/0|
+|712|석재은|베이지|아크릴|모자|5|여자|29000|0|0|플리츠마마|https://www.musinsa.com/app/goods/2122170/0|
+|713|석재은|블랙|면 폴리에스터|상의|5|여자|138000|0|0|플리츠마마|https://www.musinsa.com/app/goods/2064480/0|
+|714|석재은|블랙|폴리에스터 폴리우레탄|가방|5|여자|39000|0|1|플리츠마마|https://www.musinsa.com/app/goods/1686958/0|
+715 rows × 11 columns
+
+
+# 가격
+-> 제품마다 가격과 가격 범주화함
+# 가격 범주화 한거 받기
