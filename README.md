@@ -27,7 +27,7 @@
 #
 
 ### 프로젝트 소개
-1. 데이터 수집
+1. [데이터 수집](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A7%91%20%EA%B3%BC%EC%A0%95.md)<br>
 - 업사이클링 브랜드별로 표시하고 있는 데이터 형식들이 다르기 때문에 스크래핑 후 전처리 작업이 더 오래 걸릴 것이라 예상했다.
 - 의류 이커머스인 무신사에서 업사이클링 아이템을 구매한 사용자들의 구매내역을 수집하였다.
 2. 선정 대상
@@ -63,7 +63,7 @@
 #
 
 ### 추천시스템
-1. 데이터 전처리
+1. [데이터 전처리](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC.md)<br>
 - **데이터 전처리 방법**
   - 색상  
     - 데이터 전체 색상 개수 39개를 👉🏻 11개로 줄였다
