@@ -62,6 +62,11 @@
   - [결과](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EC%BD%94%EC%82%AC%EC%9D%B8%EC%9C%A0%EC%82%AC%EB%8F%84(TF-IDF).md)
 
 3. 추천시스템 결과물  
+- 사용 툴 : Streamlit <br>
+[<img width="300" alt="image" src="https://user-images.githubusercontent.com/96903792/172726731-7fdbe0f7-4551-4c28-8925-bb937ea0dd5a.png">
+](https://streamlit.io/)<br>
+
+***
 
 <img width="650" alt="스크린샷 2022-06-08 오후 5 33 28" src="https://user-images.githubusercontent.com/97087253/172570960-f16f094e-619f-4fad-a758-89e3b64f427e.png">
 
