@@ -38,10 +38,11 @@
 4. [데이터 분석](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94.md)<br>
 
 5. [추천시스템 종류(시도한 것들)](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EB%AA%A8%EB%8D%B8%20%EC%8B%9C%EB%8F%84%ED%95%9C%EA%B2%83/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%A2%85%EB%A5%98(%EC%8B%9C%EB%8F%84%ED%95%9C%20%EA%B2%83%EB%93%A4).md)<br>
+- 분류 머신러닝
+- keras Sequential(softmax) 분류 
 - 뉴럴 네트워크 임베딩
-- 로지스틱 회귀분류
-- 코사인유사도
-- keras Sequential(softmax) 분류 모델
+- 코사인유사도(TF-IDF)
+
 #
 
 ### 추천시스템
