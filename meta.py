@@ -13,7 +13,7 @@ SIDEBAR_INFO = """
 
 """
 UPCYCLING_INFO = """
-<h2 class="font-title">Upcycling Brand for YOU!! </h2>
+<h2 class="font-title">Upcycling for YOU!! </h2>
 <p class="strong font-body">
 <span class="d-block extra-info">(최근에 구매한 상품 정보를 입력하면 업사이클링 브랜드를 추천해드립니다! <br>무신사에 입점되어있는 업사이클링 브랜드 <strong>플리츠마마</strong>, <strong>누깍</strong>, <strong>오버랩업사이클</strong>,<br> <strong>119레오</strong>, <strong>큐클리프</strong>, <strong>카네이테이</strong>를 만나보세요.🤗)</span>
 </p>
