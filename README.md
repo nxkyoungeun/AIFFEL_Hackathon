@@ -59,6 +59,7 @@
 - **[사용한 모델 코드](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%E1%84%8F%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B2%E1%84%89%E1%85%A1%E1%84%83%E1%85%A9(TF-IDF)01.ipynb)<br>**
   - TF-IDF 벡터화
   - 코사인 유사도
+  - [결과](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EC%BD%94%EC%82%AC%EC%9D%B8%EC%9C%A0%EC%82%AC%EB%8F%84(TF-IDF).md)
 
 3. 추천시스템 결과물  
 
