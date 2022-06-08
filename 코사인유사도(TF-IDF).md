@@ -1,5 +1,9 @@
 # 코사인 유사도(TF-IDF)
 
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/96903792/172724978-67bd4306-f73c-4db7-8129-16d38fabdfa0.png"><br>
+
+***
+
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/96903792/172723925-08021ef3-9b9d-4138-8a3b-fbccf06eecf1.png"><br>
 
 ***
