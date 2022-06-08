@@ -44,7 +44,7 @@
 - 분류 머신러닝
 - keras Sequential(softmax) 분류 
 - 뉴럴 네트워크 임베딩
-- 코사인유사도(TF-IDF)
+- 코사인유사도(Word2Vec)
 
 #
 
