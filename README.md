@@ -35,25 +35,7 @@
 - 위 아이템을 구매한 사용자의 구매후기를 수집했다.
 3. 컬럼 소개
 - 사이트, 사용자이름(ID), 색상, 소재, 종류, 별점, 성별(구매자), 가격, 무늬, 업사이클링브랜드(0과 1, 이름), 웹사이트주소
-4. 데이터 분석
-- 색상
-![image](https://user-images.githubusercontent.com/97087253/171815371-4b85ff88-996b-4354-8f6c-abed4d19540d.png)
-- 소재
-![image](https://user-images.githubusercontent.com/97087253/171815404-32ce7aee-b842-4c2d-819b-578c1b5e9c56.png)
-- 성별
-![image](https://user-images.githubusercontent.com/97087253/171815427-961732d9-aec1-4431-af69-4cf90067fd78.png)
-- 가격
-![image](https://user-images.githubusercontent.com/97087253/171815447-a9d8c381-700c-4c8e-a72c-3b9df8a99ee5.png)
-- 무늬 여부
-
-![image](https://user-images.githubusercontent.com/97087253/171815466-aaa8e22d-8563-4b08-baa4-9acc491b1d6c.png)
-- 브랜드
-
-![image](https://user-images.githubusercontent.com/97087253/171815489-95d01375-c222-4620-8da8-6618752a34fa.png)
-- 종류
-
-![image](https://user-images.githubusercontent.com/97087253/172059192-b1d51f21-1518-440d-8870-5b5b8d30a2d1.png)
-
+4. [데이터 분석](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94.md)<br>
 
 5. 추천시스템 종류(시도한 것들)
 - 뉴럴 네트워크 임베딩
