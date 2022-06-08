@@ -66,7 +66,7 @@ a. 새로운 사용자의 최근 구매 정보를 입력
 b. 모델 실행  
 c. 결과 도출: 업사이클링 브랜드 추천 or 비슷한 유저가 구매한 업사이클링 제품 추천  
 d. 결과에 대한 만족도를 물어본다. -> 만족함 or 불만족을 선택한다. -> (만족함을 선택한 사람 만)추천한 업사이클링 브랜드를 데이터에 추가한다. -> 새로운 유저의 정보를 얻을 수 있다.  
-[reference-참고 웹페이지](https://western-sky.tistory.com/60?category=847883#%E2%9C%A8%EA%B5%AC%ED%98%84-%EA%B2%B0%EA%B3%BC)
+
 
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=9ACB34&height=300&section=footer&fontSize=90&)
