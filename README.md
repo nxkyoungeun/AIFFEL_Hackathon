@@ -63,7 +63,7 @@
 
 3. 추천시스템 결과물  
 
-<img width="500" alt="스크린샷 2022-06-08 오후 5 33 28" src="https://user-images.githubusercontent.com/97087253/172570960-f16f094e-619f-4fad-a758-89e3b64f427e.png">
+<img width="650" alt="스크린샷 2022-06-08 오후 5 33 28" src="https://user-images.githubusercontent.com/97087253/172570960-f16f094e-619f-4fad-a758-89e3b64f427e.png">
 
 - **결과페이지 스트림릿 설명**  
 a. 새로운 사용자의 최근 구매 정보를 입력 
