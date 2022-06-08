@@ -119,7 +119,7 @@ def main():
     )
     col1, col2 = st.columns([6, 4])
     with col2:
-        image_ = Image.open("asset/여섯001.png")
+        image_ = Image.open("/asset/여섯001.png")
         st.image(image_, width=400)
     
         st.markdown(meta.SIDEBAR_INFO, unsafe_allow_html=True)
