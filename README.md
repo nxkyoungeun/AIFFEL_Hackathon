@@ -37,7 +37,7 @@
 - 사이트, 사용자이름(ID), 색상, 소재, 종류, 별점, 성별(구매자), 가격, 무늬, 업사이클링브랜드(0과 1, 이름), 웹사이트주소
 4. [데이터 분석](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94.md)<br>
 
-5. 추천시스템 종류(시도한 것들)
+5. [추천시스템 종류(시도한 것들)](https://github.com/nxkyoungeun/AIFFEL_Hackathon/blob/main/%EB%AA%A8%EB%8D%B8%20%EC%8B%9C%EB%8F%84%ED%95%9C%EA%B2%83/README.md)<br>
 - 뉴럴 네트워크 임베딩
 - 로지스틱 회귀분류
 - 코사인유사도
